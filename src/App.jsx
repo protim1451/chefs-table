@@ -1,6 +1,5 @@
 import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+import Header from './Components/Header/Header'
 import './App.css'
 
 function App() {
@@ -8,11 +7,15 @@ function App() {
 
   return (
     <>
-      
-      <h1 className="text-3xl font-bold underline">
-      Hello world!
-    </h1>
-  
+      <Header></Header>
+      <div className="main-container mx-14">
+        <div className="cards-container w-2/3">
+            <h1>For Cards</h1>
+        </div>
+        <div className="cart-container">
+            <h1>For Cart</h1>
+        </div>
+      </div>
     </>
   )
 }
