@@ -1,15 +1,25 @@
-.main-container{
+.main-container {
     display: flex;
     justify-content: space-around;
 }
 
-.cart-container{
+.cart-container {
     width: 300px;
     box-shadow: 4px 4px 8px gray;
 }
 
-.card-img{
+.card-img {
     width: 331px;
     height: 200px;
     border-radius: 15px;
+}
+
+.cards-container {
+    margin-top: 20px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 10px;
+    background-color: beige;
+    padding: 10px; 
+    border: 2px solid gray;
 }
