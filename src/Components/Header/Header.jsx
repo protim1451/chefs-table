@@ -32,7 +32,7 @@ const Header = () => {
                 </div>
             </div>
             <div >
-                <img className="w-[1100px] h-[450px] my-6 ml-7" src="back.jpg" alt="" />
+                <img className="w-[1100px] h-[450px] my-6 ml-7 rounded-xl" src="back.jpg" alt="" />
                 <div className="header-content">
                     <h2 className="text-center text-4xl font-bold text-white">Discover an exceptional cooking
                         <br />class tailored for you!</h2>
