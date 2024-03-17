@@ -19,12 +19,14 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 10px;
-    background-color: beige;
+    background-color:azure;
     padding: 10px; 
     /* border: 2px solid gray; */
 }
 
 .card-item{
+    background-color:cornsilk;
     border: 2px solid gainsboro;
     padding: 10px;
+    border-radius: 15px;
 }

@@ -1,8 +1,8 @@
 import { IoMdTime } from "react-icons/io";
 import { GiCelebrationFire } from "react-icons/gi";
 
-const Recipe = ({ recipe }) => {
-    //console.log(recipe);
+const Recipe = ({ recipe, handleCart }) => {
+    //console.log(handleCart);
     const { recipe_image, recipe_name, short_description,
         ingredients, preparing_time, calories } = recipe;
     return (
@@ -28,7 +28,9 @@ const Recipe = ({ recipe }) => {
                         <p>{calories}</p>
                     </div>
                 </div>
-                <button className='border-2 bg-green-600 rounded-3xl p-[6px] font-semibold mr-4 mt-3'>Want to Cook</button>
+                <button onClick={(e)=>{handleCart(recipe)}} 
+                className='border-2 bg-green-600 rounded-3xl
+                 p-[6px] font-semibold mr-4 mt-3'>Want to Cook</button>
             </div>
         </div>
     );
