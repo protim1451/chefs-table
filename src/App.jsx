@@ -62,22 +62,25 @@ function App() {
           </div>
           <div className="cart-container w-2/5 my-7">
             <h5 className='font-bold text-center pt-4'>Want to Cook: {clickedCount}</h5>
+            <hr />
             <div className='flex justify-between items-center'>
               <table className='p-1 w-full text-center mt-3'>
                 <thead>
                   <tr>
+                    <th>Recipe id</th>
                     <th>Name</th>
                     <th>Time</th>
                     <th>Calories</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {cart.map(item => (
-                    <tr key={item.recipe_id}>
-                      <td>1 {item.recipe_name}</td>
+                  {cart.map((item, idx) => (
+                    <tr key={idx}>
+                      <td>{item.recipe_id}</td>
+                      <td>{item.recipe_name}</td>
                       <td>{item.preparing_time} min</td>
                       <td>{item.calories}</td>
-                      <td><button onClick={(e) =>{handleAddToCooking(item)}} className='border-2 bg-green-600 
+                      <td><button onClick={(e) => { handleAddToCooking(item) }} className='border-2 bg-green-600 
               rounded-3xl p-[6px] font-semibold mr-4 mt-3 max-h-10'>
                         Preparing</button></td>
                     </tr>
@@ -85,31 +88,41 @@ function App() {
                 </tbody>
               </table>
             </div>
+            <hr />
             <h5 className='font-bold text-center mt-8'>Currently Cooking: {cookingItems.length}</h5>
+            <hr />
             <div>
               <table className='p-4 w-full text-center mt-6 space-y-5'>
                 <thead>
                   <tr>
+                    <th>Recipe id</th>
                     <th>Name</th>
                     <th>Time</th>
                     <th>Calories</th>
                   </tr>
                 </thead>
                 <tbody>
-                  {cookingItems.map(item => (
-                    <tr className='pl-3' key={item.recipe_id}>
-                      <td><span className='font-semibold'>1 </span>{item.recipe_name}</td>
+                  {cookingItems.map((item, idx) => (
+                    <tr className='pl-3' key={idx}>
+                      <td>{item.recipe_id}</td>
+                      <td>{item.recipe_name}</td>
                       <td>{item.preparing_time} Min</td>
                       <td>{item.calories}</td>
                     </tr>
                   ))}
-                  <tr className='calculation mt-5'>
+                  {/* <tr className='calculation mt-5'>
+                    <td></td>
                     <td></td>
                     <td className='font-bold'>Total time = <br /> {totalCookingTime} min</td>
                     <td className='font-bold'>Total Calories = <br />{totalCalories}</td>
-                  </tr>
+                  </tr> */}
                 </tbody>
               </table>
+              <hr />
+              <div className='flex justify-end gap-8 mt-5 pr-4'>
+                <p className='font-bold'>Total time =  {totalCookingTime} min</p>
+                <p className='font-bold'>Total Calories = {totalCalories}</p>
+              </div>
             </div>
           </div>
         </div>
