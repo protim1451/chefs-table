@@ -5,7 +5,7 @@
       "short_description": "A classic Italian pasta dish with creamy sauce, crispy bacon, and Parmesan cheese.",
       "ingredients": ["150g pancetta or bacon", "50g grated Parmesan cheese", "Freshly ground black pepper", "Salt to taste"],
       "preparing_time": 20,
-      "calories": "450 calories",
+      "calories": 450,
       "recipe_image": "https://i.ibb.co/Dg4gDBC/spaghetti.jpg"
     },
     {
@@ -14,7 +14,7 @@
       "short_description": "A creamy and flavorful Italian rice dish cooked with mushrooms, onions, and Parmesan cheese.",
       "ingredients": ["300g Arborio rice", "200g mushrooms", "1 onion, finely chopped", "1 liter vegetable broth", "50g grated Parmesan cheese"],
       "preparing_time": 40,
-      "calories": "380 calories",
+      "calories": 380,
       "recipe_image": "https://i.ibb.co/r57q8yf/mushroom-risotto.jpg"
     },
     {
@@ -23,7 +23,7 @@
       "short_description": "A quick and easy stir-fry dish with tender chicken, colorful vegetables, and a savory soy sauce.",
       "ingredients": ["500g chicken breast, sliced", "200g broccoli florets", "1 red bell pepper, sliced", "120ml soy sauce", "3 cloves garlic, minced", "1 tablespoon cornstarch"],
       "preparing_time": 25,
-      "calories": "320 calories",
+      "calories": 320,
       "recipe_image": "https://i.ibb.co/dDxCZWY/Chicken-Stir-Fry.jpg"
     },
     {
@@ -32,7 +32,7 @@
       "short_description": "A refreshing Italian salad made with ripe tomatoes, fresh mozzarella cheese, and basil leaves.",
       "ingredients": ["4 ripe tomatoes", "200g fresh mozzarella cheese", "1 bunch fresh basil leaves", "2 tablespoons extra virgin olive oil", "Balsamic vinegar for drizzling", "Salt and pepper to taste"],
       "preparing_time": 15,
-      "calories": "220 calories",
+      "calories": 220,
       "recipe_image": "https://i.ibb.co/59ysFwZ/Caprese-Salad.jpg"
     },
     {
@@ -41,7 +41,7 @@
       "short_description": "A flavorful and aromatic curry dish loaded with assorted vegetables and served with steamed rice.",
       "ingredients": ["2 potatoes, diced", "1 carrot, sliced", "1 onion, chopped", "200g cauliflower florets", "400ml coconut milk", "2 tablespoons curry powder"],
       "preparing_time": 35,
-      "calories": "280 calories",
+      "calories": 280,
       "recipe_image": "https://i.ibb.co/DtQ3MGt/vegetable-curry.jpg"
     },
     {
@@ -50,7 +50,7 @@
       "short_description": "Rich and indulgent chocolate brownies with a fudgy texture and a hint of sweetness.",
       "ingredients": ["200g dark chocolate", "150g unsalted butter", "200g granulated sugar", "100g all-purpose flour"],
       "preparing_time": 30,
-      "calories": "350 calories",
+      "calories": 350,
       "recipe_image": "https://i.ibb.co/0rP6tGk/chocolate-brownie.jpg"
     }
   ]

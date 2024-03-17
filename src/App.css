@@ -30,3 +30,12 @@
     padding: 10px;
     border-radius: 15px;
 }
+
+.cart-info{
+    display: flex;
+    justify-content: space-around;
+}
+
+.calculation{
+    margin-top: 20px;
+}
